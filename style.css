@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=SN Pro');
+body, html{
+    height: 100%;
+    font-family: 'SN Pro', sans-serif;
+    background-color: #222222;
+    color: #f4f4f4;
+    padding-top: 50px;
+}
+.fixed-top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #222222;
+    z-index: 1000;
+}
+.topic{
+    color: #a7d3ff;
+}
+nav{
+    background-color: #a7d3ff;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    display: flex;
+    gap: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: black;   
+    margin-left: 5px;
+}
+.index-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.index-page section{
+    border: 5px solid #a7d3ff;
+    padding: 25px;
+    padding-top: 5px;
+    border-radius: 15px;
+    height: 200px;
+    width: 650px;
+    font-size: 18px;
+}
+.index-page section .formula{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.profile-page{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 18px;
+}
+.profile-page .row{
+    display: flex;
+    gap: 10px;
+}
+.profile-page section{
+    border: 3px solid #a7d3ff;
+    border-radius: 15px;
+    padding: 15px;
+    height: 250px;
+    width: 400px;
+}
+.skills-page{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.skills-page .row{
+    display: flex;
+    gap: 10px;
+}
+.skills-page section{
+    border: 3px solid #a7d3ff;
+    border-radius: 15px;
+    padding: 15px;
+    height: 200px;
+    width: 250px;
+}
+.index-page .contact{
+    height: 180px;
+    width: auto;
+}
+.projects-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects-page section{
+    border: 3px solid #a7d3ff;
+    border-radius: 15px;
+    padding: 15px;
+    height: 440px;
+    width: 700px;
+    padding-top: 0px;
+}
+.projects-page a, .contact a{
+    color: #f4f4f4;
+}
+.each-project h2{
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
+    color: #a7d3ff;
+}
+@media (max-width: 600px){
+    nav{
+        gap: 2px;
+        padding: 5px;
+    }
+    nav a{
+        margin-left: 2px;
+    }
+    .index-page section{
+        height: auto;
+        width: auto;
+    }
+    .profile-page .row, .skills-page .row{
+        flex-direction: column;
+    }
+    .profile-page section{
+        height: auto;
+    }
+    .skills-page section{
+        height: auto;
+        width: auto;
+    }
+    .index-page .contact{
+        height: auto;
+    }
+    .projects-page section{
+        height: auto;
+        width: auto;
+    }
+}
