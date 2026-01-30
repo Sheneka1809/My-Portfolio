@@ -59,8 +59,8 @@ nav a:hover{
     flex-direction: column;
     gap: 10px;
     align-items: center;
-    margin-left: 150px;
-    margin-right: 150px;
+    /* margin-left: 150px;
+    margin-right: 150px; */
     font-size: 18px;
 }
 .profile-page .row{
@@ -136,7 +136,7 @@ footer{
     }
     .profile-page section{
         height: auto;
-        width: 400px;
+        width: auto;
     }
     .skills-page section{
         height: auto;
