@@ -127,7 +127,7 @@ footer{
 }
 @media (max-width: 600px){
     nav{
-        gap: 1px;
+        gap: 2px;
         width: auto;
         justify-content: space-around;
     }
