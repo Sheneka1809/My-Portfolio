@@ -130,10 +130,10 @@ footer{
         gap: 2px;
         width: auto;
         justify-content: space-around;
+        padding: 5px;
     }
     nav a{
         margin-left: 2px;
-        margin-right: 1px;
     }
     .index-page section{
         height: auto;
