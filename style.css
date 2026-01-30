@@ -131,6 +131,9 @@ footer{
         width: auto;
         justify-content: space-around;
     }
+    nav a{
+        margin-left: 2px;
+    }
     .index-page section{
         height: auto;
         width: auto;
