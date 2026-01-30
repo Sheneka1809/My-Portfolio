@@ -133,6 +133,7 @@ footer{
     }
     nav a{
         margin-left: 2px;
+        margin-right: 1px;
     }
     .index-page section{
         height: auto;
