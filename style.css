@@ -4,7 +4,7 @@ body, html{
     font-family: 'SN Pro', sans-serif;
     background-color: #222222;
     color: #f4f4f4;
-    padding-top: 50px;
+    padding-top: 70px;
 }
 .fixed-top{
     position: fixed;
@@ -30,6 +30,9 @@ nav a{
     text-decoration: none;
     color: black;   
     margin-left: 5px;
+}
+nav a:hover{
+    text-decoration: underline;
 }
 .index-page{
     display: flex;
@@ -118,7 +121,8 @@ footer{
 @media (max-width: 600px){
     nav{
         gap: 2px;
-        padding: 5px;
+        width: auto;
+        justify-content: space-around;
     }
     nav a{
         margin-left: 2px;
@@ -132,10 +136,10 @@ footer{
     }
     .profile-page section{
         height: auto;
+        
     }
     .skills-page section{
         height: auto;
-        width: auto;
     }
     .index-page .contact{
         height: auto;
